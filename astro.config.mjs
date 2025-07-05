@@ -39,8 +39,8 @@ const manifest = {
 }
 // https://astro.build/config
 export default defineConfig({
-  site: 'https://acesdit.github.io',
-  base: '/snippets',
+  site: 'https://xxx-snippets-collect.vercel.app',
+  base: '/',
   integrations: [tailwind(),AstroPWA({
     manifest: manifest
   })]
